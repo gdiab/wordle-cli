@@ -26,8 +26,8 @@ class CLIConfig:
     STATE_COLOURS = {
         LetterStates.CORRECTPOSITION:    "\x1b[42;30m",
         LetterStates.INCORRECTPOSITION:  "\x1b[43;30m",
-        LetterStates.NOTPRESENT:         "\x1b[40;37m",
-        LetterStates.NOTGUESSEDYET:      "\x1b[90m"
+        LetterStates.NOTPRESENT:         "\x1b[90m",
+        LetterStates.NOTGUESSEDYET:      "\x1b[40;37m"
         }
     SHARE_EMOJI = {
         LetterStates.CORRECTPOSITION:    "🟩",
